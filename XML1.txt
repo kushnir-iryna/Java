@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student firstName="IRYNA">
+    <course>Statistics</course>
+    <lastName>Kushnir</lastName>
+    <mark>87</mark>
+</student>
