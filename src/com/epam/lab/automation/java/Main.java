@@ -21,10 +21,13 @@ public class Main {
 		dParse.dparser();
 		System.out.println("****************************");
 
+		SAXParserUsage sParse = new SAXParserUsage();
+		sParse.saxParse();
+
+		System.out.println("****************************");
+
 		StaXParser stParse = new StaXParser();
 		stParse.staxParser();
 
-
-		
 	}
 }
