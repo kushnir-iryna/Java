@@ -29,5 +29,16 @@ public class Main {
 		StaXParser stParse = new StaXParser();
 		stParse.staxParser();
 
+		System.out.println("****************************");
+
+		System.out.println("JAXB Marshalling: Converting a Java Object to XML:");
+		JAXBMarshall ConvertObjectXML = new JAXBMarshall();
+		ConvertObjectXML.marshall();
+
+		System.out.println("****************************");
+
+		System.out.println("JAXB Unmarhsalling: Converting XML to Java Object:");
+		JAXBUnmarshall ConvertXMObject = new JAXBUnmarshall();
+		ConvertXMObject.unmarshall();
 	}
 }
